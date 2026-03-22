@@ -56,38 +56,26 @@ Este projeto reúne exercícios práticos desenvolvidos em Java para praticar co
 ## 📦 Estrutura do projeto
 
 ```
-TP3_DR3_DSWTJava/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── br/
-│   │   │       └── edu/
-│   │   │           └── infnet/
-│   │   │               └── tp3_dr3_dswtjava/
-│   │   │                   ├── Aplicacao.java
-│   │   │                   ├── Tp3Dr3DswtJavaApplication.java
-│   │   │                   ├── cliente/
-│   │   │                   │   └── ClienteHttp.java
-│   │   │                   ├── exercicios/
-│   │   │                   │   ├── Exercicio01GetEntidades.java
-│   │   │                   │   ├── Exercicio02GetEntidadeEspecifica.java
-│   │   │                   │   ├── Exercicio03GetEntidadeInexistente.java
-│   │   │                   │   ├── Exercicio04GetComParametros.java
-│   │   │                   │   ├── Exercicio05PostCriarEntidade.java
-│   │   │                   │   ├── Exercicio06GetEntidadeCriada.java
-│   │   │                   │   ├── Exercicio07PostAtualizarEntidade.java
-│   │   │                   │   ├── Exercicio08PutAtualizarEntidade.java
-│   │   │                   │   ├── Exercicio09DeleteEntidadeValida.java
-│   │   │                   │   ├── Exercicio10DeleteInvalido.java
-│   │   │                   │   ├── Exercicio11OptionsMetodosPermitidos.java
-│   │   │                   │   └── Exercicio12SimpleApi.java
-│   │   │                   └── util/
-│   │   │                       └── UtilHttp.java
-│   │   └── resources/
-├── src/test/
-├── pom.xml
-├── mvnw
-├── mvnw.cmd
+tp3_dr3_dswtjava/
+├── Aplicacao.java
+├── Tp3Dr3DswtJavaApplication.java
+│   ├── cliente/
+│   │   └── ClienteHttp.java
+│   ├── exercicios/
+│   │   ├── Exercicio01GetEntidades.java
+│   │   ├── Exercicio02GetEntidadeEspecifica.java
+│   │   ├── Exercicio03GetEntidadeInexistente.java
+│   │   ├── Exercicio04GetComParametros.java
+│   │   ├── Exercicio05PostCriarEntidade.java
+│   │   ├── Exercicio06GetEntidadeCriada.java
+│   │   ├── Exercicio07PostAtualizarEntidade.java
+│   │   ├── Exercicio08PutAtualizarEntidade.java
+│   │   ├── Exercicio09DeleteEntidadeValida.java
+│   │   ├── Exercicio10DeleteInvalido.java
+│   │   ├── Exercicio11OptionsMetodosPermitidos.java
+│   │   └── Exercicio12SimpleApi.java
+│   └── util/
+|       └── UtilHttp.java
 └── README.md
 ```
 ---
